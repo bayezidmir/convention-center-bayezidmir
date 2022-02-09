@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@200;400;500;600;700;800;900&family=Raleway:wght@300;400;500;600;700&display=swap");
+
+* {
+  font-family: "Cairo", sans-serif;
+  font-family: "Raleway", sans-serif;
+}
+
+/* Carousel Styling */
+
+.carousel-item {
+  height: 500px;
+}
+.carousel-item img {
+  height: 500px;
+  object-fit: cover;
+}
+
+/* Satisfied Clients */
+#satisfied-client {
+  background-color: #3498db;
+}
+
+/* Packeges */
+#packege-features li {
+  border: none;
+  padding: 0.2rem 0;
+  background-color: transparent;
+}
+
+#special-packege {
+  position: relative;
+}
+
+.hot-badge {
+  position: absolute;
+  top: -0.6rem;
+  right: 0.9rem;
+}
+
+#hot {
+  bottom: 1.2rem;
+  background-color: #3498db;
+  border-radius: 1.1rem;
+  color: azure;
+  box-shadow: 0.1rem 1.2rem 1rem #3498db85;
+}
+
+#packege {
+  position: relative;
+}
+
+#toast {
+  position: absolute;
+  top: -2rem;
+  right: 1rem;
+}
+
+/* Contact US */
+textarea {
+  resize: none;
+}
